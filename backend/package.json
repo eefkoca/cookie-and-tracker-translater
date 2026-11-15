@@ -1,0 +1,9 @@
+{
+  "name": "privacy-translator-backend",
+  "version": "0.2.0",
+  "type": "module",
+  "private": true,
+  "description": "Explanation API for Cookie and Tracker Translator (zero runtime dependencies).",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}
