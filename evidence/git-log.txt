@@ -1,3 +1,4 @@
+8d54424 2026-11-15 13:11 Efe Koca  Update git log evidence
 65b9dcb 2026-11-15 12:57 Efe Koca  Add Report #2 evidence: unit/E2E outputs, service-worker log, screenshots, payload samples
 b9815f5 2026-11-15 12:57 Efe Koca  Add README with layout, run instructions and privacy design
 ed29aed 2026-11-15 12:56 Efe Koca  Ignore non-HTTP main-frame navigations (extension pages were resetting tab state in logs)
