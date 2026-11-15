@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><title>Cookie Translator</title>
-<style>body{font-family:sans-serif;width:320px;padding:12px}h1{font-size:18px;border-bottom:2px solid #2a7ab0}.card{border-left:4px solid #e04b4b;padding:8px;box-shadow:0 1px 3px #0003}</style></head>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cookie and Tracker Translator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
 <body>
-<h1>Cookie Translator</h1>
-<p><b>Status: Scanning website...</b></p>
-<!-- NOTE: static placeholder content (Report #1 mock-up, no detection logic yet) -->
-<div class="card"><b>Detected:</b> Google Analytics<br><i>Waiting for AI translation...</i></div>
+  <header>
+    <div>
+      <h1>Cookie &amp; Tracker Translator</h1>
+      <div id="site" class="muted">—</div>
+    </div>
+    <div id="grade" class="grade" title="Privacy grade">?</div>
+  </header>
+
+  <section id="empty" class="hidden muted">No data for this tab yet. Reload the page to start observing requests.</section>
+
+  <main id="main" class="hidden">
+    <div class="row">
+      <div><span id="score" class="big">--</span><span class="muted">/100</span>
+        <div id="scoreNote" class="muted small"></div></div>
+      <label class="small">Site type
+        <select id="context"></select>
+      </label>
+    </div>
+
+    <div id="anomaly" class="alert hidden"></div>
+
+    <div class="chartRow">
+      <canvas id="pie" width="120" height="120" aria-label="Tracker categories pie chart"></canvas>
+      <ul id="legend" class="legend"></ul>
+    </div>
+
+    <h2>Detected trackers <span id="count" class="muted"></span></h2>
+    <ul id="trackers" class="trackers"></ul>
+
+    <button id="explainBtn" class="primary">Translate into plain language</button>
+    <p class="small muted">Only tracker names, categories and the site type are sent. The page address is never sent.</p>
+    <div id="explanation" class="hidden"></div>
+
+    <h2>Tracker Shield</h2>
+    <div id="shield" class="shield"></div>
+  </main>
+  <footer class="small muted" id="footer"></footer>
+  <script type="module" src="popup.js"></script>
 </body>
 </html>
