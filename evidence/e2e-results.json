@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15T12:56:27.318Z",
+  "date": "2026-11-15T12:57:05.762Z",
   "chrome": "153.0.8010.12",
   "node": "v22.23.4",
   "platform": "linux x64",
@@ -76,7 +76,7 @@
       "id": "E09",
       "name": "Plain-language explanation from backend; repeated request served from cache",
       "expected": "first: source=template, not cached; second: cached=true; summary + anomaly warning present",
-      "actual": "first: \"Source: template · 22 ms\"; second: source=template, cached=true, 11 ms; warnings=1",
+      "actual": "first: \"Source: template · 18 ms\"; second: source=template, cached=true, 7 ms; warnings=1",
       "pass": true,
       "note": ""
     },
@@ -92,7 +92,7 @@
       "id": "E11",
       "name": "Backend stopped: extension shows offline template explanation instead of an error",
       "expected": "source=offline-fallback, non-empty summary, latency < 2000 ms",
-      "actual": "source=offline-fallback, error=\"Failed to fetch\", summary length 169, 6 ms",
+      "actual": "source=offline-fallback, error=\"Failed to fetch\", summary length 169, 3 ms",
       "pass": true,
       "note": ""
     },
@@ -108,7 +108,7 @@
       "id": "E13",
       "name": "Performance: median page-load time on the 8-tracker health fixture, with vs without extension (n = 15 each)",
       "expected": "overhead ≤ 50 ms median",
-      "actual": "with 47.5 ms, without 41.7 ms, overhead 5.8 ms",
+      "actual": "with 46.1 ms, without 41.2 ms, overhead 4.9 ms",
       "pass": true,
       "note": ""
     }
@@ -181,39 +181,39 @@
   },
   "timings": {
     "withExt": [
-      67.69999999995343,
-      55.300000000046566,
-      49,
-      54,
-      45.300000000046566,
-      47.5,
-      43.40000000002328,
-      49.90000000002328,
-      53.29999999993015,
-      43.59999999997672,
-      45.300000000046566,
-      40.5,
-      47.79999999993015,
-      46.699999999953434,
-      38.79999999993015
+      81.40000000002328,
+      51.800000000046566,
+      50.90000000002328,
+      63.20000000006985,
+      43.90000000002328,
+      51.199999999953434,
+      38.40000000002328,
+      42.199999999953434,
+      42,
+      47.300000000046566,
+      42.70000000006985,
+      44.699999999953434,
+      46.09999999997672,
+      39.199999999953434,
+      48.90000000002328
     ],
     "withoutExt": [
-      77.69999999995343,
-      40.199999999953434,
-      35,
-      36.29999999993015,
-      31.599999999976717,
-      53.300000000046566,
-      52.89999999990687,
-      48,
+      75.19999999995343,
+      41.40000000002328,
+      46.29999999993015,
+      44.5,
+      34.59999999997672,
+      42.09999999997672,
+      38.60000000009313,
+      55.199999999953434,
+      36.199999999953434,
+      32,
+      35.59999999997672,
+      44.90000000002328,
+      35.300000000046566,
       39,
-      36.59999999997672,
-      44,
-      42.5,
-      41.70000000006985,
-      50.5,
-      39.800000000046566
+      41.20000000006985
     ]
   },
-  "backendLog": "[backend] listening on http://127.0.0.1:8787 (provider=template, node v22.23.4)\n[backend] explain ok: 6 trackers, context=health, source=template, 4.319 ms\n"
+  "backendLog": "[backend] listening on http://127.0.0.1:8787 (provider=template, node v22.23.4)\n[backend] explain ok: 6 trackers, context=health, source=template, 3.188 ms\n"
 }
