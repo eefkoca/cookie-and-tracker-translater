@@ -1,0 +1,274 @@
+2026-11-15T12:56:48.385Z [PT] service worker started
+2026-11-15T12:56:48.399Z [PT] tracker dataset v2026.11.1 loaded: 62 domains
+2026-11-15T12:56:49.668Z [PT] tab 1012096604: navigation to clean-blog.test — state reset
+2026-11-15T12:56:51.139Z [PT] tab 1012096605: navigation to news-daily.test — state reset
+2026-11-15T12:56:51.173Z [PT] tab 1012096605: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:56:51.175Z [PT] tab 1012096605: tracker www.googletagmanager.com -> Google [analytics] (script)
+2026-11-15T12:56:52.564Z [PT] tab 1012096606: navigation to saglik-forum.test — state reset
+2026-11-15T12:56:52.589Z [PT] tab 1012096606: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:56:52.598Z [PT] tab 1012096606: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:56:52.598Z [PT] tab 1012096606: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:56:52.598Z [PT] tab 1012096606: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:56:52.598Z [PT] tab 1012096606: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:56:52.598Z [PT] tab 1012096606: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:56:52.598Z [PT] tab 1012096606: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:56:52.598Z [PT] tab 1012096606: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:56:52.628Z [PT] tab 1012096606: doubleclick.net set a third-party cookie
+2026-11-15T12:56:52.628Z [PT] tab 1012096606: criteo.com set a third-party cookie
+2026-11-15T12:56:52.628Z [PT] tab 1012096606: criteo.com set a third-party cookie
+2026-11-15T12:56:52.629Z [PT] tab 1012096606: hotjar.com set a third-party cookie
+2026-11-15T12:56:52.632Z [PT] tab 1012096606: hotjar.com set a third-party cookie
+2026-11-15T12:56:54.011Z [PT] tab 1012096607: navigation to fingerprint-shop.test — state reset
+2026-11-15T12:56:54.041Z [PT] tab 1012096607: tracker fpnpmcdn.fpjs.io -> FingerprintJS [fingerprinting] (script)
+2026-11-15T12:56:54.041Z [PT] tab 1012096607: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:56:54.063Z [PT] tab 1012096607: fpjs.io set a third-party cookie
+2026-11-15T12:56:55.918Z [PT] tab 1012096608: navigation to mixed-accuracy.test — state reset
+2026-11-15T12:56:55.944Z [PT] tab 1012096608: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:56:55.945Z [PT] tab 1012096608: tracker www.googletagmanager.com -> Google [analytics] (script)
+2026-11-15T12:56:55.954Z [PT] tab 1012096608: tracker stats.g.doubleclick.net -> Google [advertising] (script)
+2026-11-15T12:56:55.957Z [PT] tab 1012096608: tracker pagead2.googlesyndication.com -> Google [advertising] (script)
+2026-11-15T12:56:55.957Z [PT] tab 1012096608: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:56:55.962Z [PT] tab 1012096608: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:56:55.962Z [PT] tab 1012096608: tracker www.clarity.ms -> Microsoft [session_replay] (script)
+2026-11-15T12:56:55.963Z [PT] tab 1012096608: tracker edge.fullstory.com -> FullStory [session_replay] (script)
+2026-11-15T12:56:55.963Z [PT] tab 1012096608: tracker fpnpmcdn.fpjs.io -> FingerprintJS [fingerprinting] (script)
+2026-11-15T12:56:55.964Z [PT] tab 1012096608: tracker bat.bing.com -> Microsoft [advertising] (script)
+2026-11-15T12:56:55.964Z [PT] tab 1012096608: tracker static.criteo.net -> Criteo [advertising] (script)
+2026-11-15T12:56:55.964Z [PT] tab 1012096608: tracker cdn.taboola.com -> Taboola [advertising] (script)
+2026-11-15T12:56:55.964Z [PT] tab 1012096608: tracker widgets.outbrain.com -> Outbrain [advertising] (script)
+2026-11-15T12:56:55.965Z [PT] tab 1012096608: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (script)
+2026-11-15T12:56:55.965Z [PT] tab 1012096608: tracker c.amazon-adsystem.com -> Amazon [advertising] (script)
+2026-11-15T12:56:55.965Z [PT] tab 1012096608: tracker analytics.tiktok.com -> ByteDance [advertising] (script)
+2026-11-15T12:56:55.965Z [PT] tab 1012096608: tracker static.ads-twitter.com -> X Corp. [advertising] (script)
+2026-11-15T12:56:55.965Z [PT] tab 1012096608: tracker cdn.mxpnl.mixpanel.com -> Mixpanel [analytics] (script)
+2026-11-15T12:56:55.965Z [PT] tab 1012096608: tracker sb.scorecardresearch.com -> Comscore [analytics] (script)
+2026-11-15T12:56:55.965Z [PT] tab 1012096608: tracker js.hs-analytics.net -> HubSpot [analytics] (script)
+2026-11-15T12:56:55.993Z [PT] tab 1012096608: doubleclick.net set a third-party cookie
+2026-11-15T12:56:56.013Z [PT] tab 1012096608: fpjs.io set a third-party cookie
+2026-11-15T12:56:56.014Z [PT] tab 1012096608: hotjar.com set a third-party cookie
+2026-11-15T12:56:57.634Z [PT] explain: backend responded in 17 ms (source=template, cached=false)
+2026-11-15T12:56:57.656Z [PT] explain: backend responded in 7 ms (source=template, cached=true)
+2026-11-15T12:57:00.119Z [PT] explain: backend unavailable (Failed to fetch) — using offline templates
+2026-11-15T12:57:00.669Z [PT] shield: advertising ENABLED (22 domains)
+2026-11-15T12:57:01.176Z [PT] tab 1012096606: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:01.203Z [PT] tab 1012096606: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:01.204Z [PT] tab 1012096606: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:01.207Z [PT] tab 1012096606: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:01.208Z [PT] tab 1012096606: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:01.208Z [PT] tab 1012096606: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:01.208Z [PT] tab 1012096606: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:01.208Z [PT] tab 1012096606: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:01.208Z [PT] tab 1012096606: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:01.212Z [PT] tab 1012096606: hotjar.com set a third-party cookie
+2026-11-15T12:57:01.217Z [PT] tab 1012096606: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.233Z [PT] shield: advertising disabled (22 domains)
+2026-11-15T12:57:03.598Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:03.626Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:03.628Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:03.630Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:03.630Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:03.632Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:03.632Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:03.632Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:03.632Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:03.653Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.654Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.658Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:03.660Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.660Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.688Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:03.710Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:03.714Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:03.714Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:03.715Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:03.715Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:03.715Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:03.715Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:03.715Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:03.727Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:03.727Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.727Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.727Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.730Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.751Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:03.770Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:03.770Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:03.777Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:03.779Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:03.779Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:03.780Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:03.782Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:03.782Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:03.783Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:03.788Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.789Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.789Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.789Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.807Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:03.831Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:03.832Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:03.833Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:03.837Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:03.840Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:03.841Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:03.841Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:03.842Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:03.843Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:03.850Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.851Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.854Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.860Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.876Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:03.895Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:03.900Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:03.900Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:03.901Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:03.901Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:03.901Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:03.902Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:03.902Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:03.907Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:03.908Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.908Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.908Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.909Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.926Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:03.942Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:03.943Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:03.947Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:03.950Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:03.951Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:03.951Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:03.951Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:03.952Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:03.953Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:03.961Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.961Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:03.961Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.962Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:03.982Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:03.998Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:03.999Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.000Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.000Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.002Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.002Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.002Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.002Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.010Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.011Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.011Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.011Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.011Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.027Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:04.046Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:04.048Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.049Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.049Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.050Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.050Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.050Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.051Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.055Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.055Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.055Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.056Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.056Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.074Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:04.089Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:04.089Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.093Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.093Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.094Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.095Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.095Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.097Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.102Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.108Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.108Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.108Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.108Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.121Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:04.141Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:04.143Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.144Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.144Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.144Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.144Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.144Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.144Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.151Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.152Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.153Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.159Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.160Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.173Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:04.190Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:04.193Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.194Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.194Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.194Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.194Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.194Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.194Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.201Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.203Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.206Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.207Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.207Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.222Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:04.246Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:04.247Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.247Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.247Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.247Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.247Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.247Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.247Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.252Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.252Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.252Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.252Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.253Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.273Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:04.296Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:04.297Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.298Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.298Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.298Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.299Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.299Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.299Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.306Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.308Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.308Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.308Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.312Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.322Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:04.338Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:04.339Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.343Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.345Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.345Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.345Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.345Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.345Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.347Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.350Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.350Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.353Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.357Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.368Z [PT] tab 1012096610: navigation to saglik-forum.test — state reset
+2026-11-15T12:57:04.384Z [PT] tab 1012096610: tracker www.google-analytics.com -> Google [analytics] (script)
+2026-11-15T12:57:04.384Z [PT] tab 1012096610: tracker stats.g.doubleclick.net -> Google [advertising] (image)
+2026-11-15T12:57:04.391Z [PT] tab 1012096610: doubleclick.net set a third-party cookie
+2026-11-15T12:57:04.392Z [PT] tab 1012096610: tracker connect.facebook.net -> Meta [advertising] (script)
+2026-11-15T12:57:04.393Z [PT] tab 1012096610: tracker static.criteo.com -> Criteo [advertising] (script)
+2026-11-15T12:57:04.394Z [PT] tab 1012096610: tracker dis.criteo.com -> Criteo [advertising] (image)
+2026-11-15T12:57:04.394Z [PT] tab 1012096610: tracker static.hotjar.com -> Hotjar [session_replay] (script)
+2026-11-15T12:57:04.394Z [PT] tab 1012096610: tracker ib.adnxs.com -> Xandr (Microsoft) [advertising] (image)
+2026-11-15T12:57:04.394Z [PT] tab 1012096610: tracker a-very-long-subdomain-name-used-for-popup-layout-testing.insights.hotjar.com -> Hotjar [session_replay] (image)
+2026-11-15T12:57:04.408Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.412Z [PT] tab 1012096610: criteo.com set a third-party cookie
+2026-11-15T12:57:04.415Z [PT] tab 1012096610: hotjar.com set a third-party cookie
+2026-11-15T12:57:04.418Z [PT] tab 1012096610: hotjar.com set a third-party cookie
