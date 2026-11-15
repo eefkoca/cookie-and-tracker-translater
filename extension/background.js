@@ -56,6 +56,7 @@ chrome.webRequest.onBeforeRequest.addListener((details) => {
 
 async function handleRequest(details) {
   await dbReady;
+  if (!/^https?:/.test(details.url)) return; // ignore chrome-extension://, data:, file: etc.
   if (details.type === 'main_frame') {
     tabs.set(details.tabId, newTabState(details.url));
     log(`tab ${details.tabId}: navigation to ${hostnameOf(details.url)} — state reset`);

@@ -1,0 +1,42 @@
+{
+  "source": "template",
+  "cached": true,
+  "explanation": {
+    "summary": "You are on a health-related website. 6 known trackers from 5 companies (Google, Meta, Criteo, Hotjar, …) received information about your visit. Privacy grade: F (0/100).",
+    "items": [
+      {
+        "domain": "google-analytics.com",
+        "category": "analytics",
+        "text": "Google counts visits and measures how people use the site (pages viewed, time spent). It is usually used for statistics."
+      },
+      {
+        "domain": "doubleclick.net",
+        "category": "advertising",
+        "text": "Google builds an advertising profile of you. It records which pages you visit so that ads can follow you to other websites. It also stored a cookie in your browser."
+      },
+      {
+        "domain": "facebook.net",
+        "category": "advertising",
+        "text": "Meta builds an advertising profile of you. It records which pages you visit so that ads can follow you to other websites."
+      },
+      {
+        "domain": "criteo.com",
+        "category": "advertising",
+        "text": "Criteo builds an advertising profile of you. It records which pages you visit so that ads can follow you to other websites. It also stored a cookie in your browser."
+      },
+      {
+        "domain": "hotjar.com",
+        "category": "session_replay",
+        "text": "Hotjar can record your mouse movements, clicks and scrolling, and sometimes what you type, so the site owner can replay your visit like a video. It also stored a cookie in your browser."
+      },
+      {
+        "domain": "adnxs.com",
+        "category": "advertising",
+        "text": "Xandr (Microsoft) builds an advertising profile of you. It records which pages you visit so that ads can follow you to other websites."
+      }
+    ],
+    "warnings": [
+      "Contextual anomaly: this is a health-related website, yet 5 advertising, social, recording or fingerprinting services are present. Information about what you read here may be linked to your advertising profile. This is a serious privacy concern."
+    ]
+  }
+}

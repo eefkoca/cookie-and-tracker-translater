@@ -1,0 +1,16 @@
+Chrome 153.0.8010.12, extension id kcijmjedfecfgngnehgkabmpipjmfglm
+PASS E01 Extension loads in Chrome as Manifest V3 with a background service worker and no errors | expected: state ENABLED, MV3, SW active, 0 manifest errors, 0 runtime errors | actual: state ENABLED, MV3, SW active, 0 manifest errors, 0 runtime errors
+PASS E02 Detection + score on clean-blog.test (Clean Blog (no third parties)) | expected: 0 trackers, 0 unknown, context general, score 100 (A) | actual: 0 trackers, 0 unknown, context general, score 100 (A)
+PASS E03 Detection + score on news-daily.test (Daily News (analytics only)) | expected: 2 trackers, 1 unknown, context news, score 89 (B) | actual: 2 trackers, 1 unknown, context news, score 89 (B)
+PASS E04 Detection + score on saglik-forum.test (Health Forum (ads on a sensitive site)) | expected: 6 trackers, 0 unknown, context health, score 0 (F), 5 anomalies | actual: 6 trackers, 0 unknown, context health, score 0 (F), 5 anomalies
+PASS E05 Detection + score on fingerprint-shop.test (Shop with fingerprinting) | expected: 2 trackers, 3 unknown, context shopping, score 64 (C) | actual: 2 trackers, 3 unknown, context shopping, score 64 (C)
+PASS E06 Third-party Set-Cookie detection (webRequest extraHeaders) | expected: criteo.com, doubleclick.net, hotjar.com | actual: criteo.com, doubleclick.net, hotjar.com
+PASS E07 Detection accuracy: 20 known tracker hosts + 10 benign/look-alike hosts | expected: recall ≥ 0.95, precision = 1.00 (0 false positives) | actual: TP 20, FP 0, FN 0, recall 1.00, precision 1.00, 10 benign hosts classified as unknown
+PASS E08 Manual site-type override recalculates the contextual anomaly penalty | expected: news(analytics only)->health: 89 B unchanged; shop(fingerprinting)->health: 54 D | actual: news: 89 B; shop: 54 D
+PASS E09 Plain-language explanation from backend; repeated request served from cache | expected: first: source=template, not cached; second: cached=true; summary + anomaly warning present | actual: first: "Source: template · 22 ms"; second: source=template, cached=true, 11 ms; warnings=1
+PASS E10 Data minimisation: payload sent to backend contains no URL, page hostname, path or cookie value | expected: fields = schemaVersion, siteContext, score, trackers{domain,company,category,setsCookies}, locale; 0 leaks | actual: fields = schemaVersion, siteContext, score, trackers, locale; leaks = none
+PASS E11 Backend stopped: extension shows offline template explanation instead of an error | expected: source=offline-fallback, non-empty summary, latency < 2000 ms | actual: source=offline-fallback, error="Failed to fetch", summary length 169, 6 ms
+PASS E12 Tracker Shield: enabling "Advertising" blocks ad requests (declarativeNetRequest) and improves the score | expected: all advertising requests blocked (ERR_BLOCKED_BY_CLIENT), 0 reached server; score 0 F -> 67 C | actual: 4 advertising trackers (3 non-ad requests still allowed), blocked 5/5 requests, 0 reached fixture server; score 0 F -> 67 C
+PASS E13 Performance: median page-load time on the 8-tracker health fixture, with vs without extension (n = 15 each) | expected: overhead ≤ 50 ms median | actual: with 47.5 ms, without 41.7 ms, overhead 5.8 ms
+
+13/13 E2E checks passed (Chrome 153.0.8010.12, linux x64)

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "siteContext": "health",
+  "score": {
+    "score": 0,
+    "grade": "F"
+  },
+  "trackers": [
+    {
+      "domain": "google-analytics.com",
+      "company": "Google",
+      "category": "analytics",
+      "setsCookies": false
+    },
+    {
+      "domain": "doubleclick.net",
+      "company": "Google",
+      "category": "advertising",
+      "setsCookies": true
+    },
+    {
+      "domain": "facebook.net",
+      "company": "Meta",
+      "category": "advertising",
+      "setsCookies": false
+    },
+    {
+      "domain": "criteo.com",
+      "company": "Criteo",
+      "category": "advertising",
+      "setsCookies": true
+    },
+    {
+      "domain": "hotjar.com",
+      "company": "Hotjar",
+      "category": "session_replay",
+      "setsCookies": true
+    },
+    {
+      "domain": "adnxs.com",
+      "company": "Xandr (Microsoft)",
+      "category": "advertising",
+      "setsCookies": false
+    }
+  ],
+  "locale": "en"
+}
