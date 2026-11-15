@@ -1,0 +1,11 @@
+{
+  "name": "cookie-and-tracker-translator",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test "tests/unit/*.test.js"",
+    "test:e2e": "node tests/e2e/run-e2e.mjs",
+    "backend": "node backend/server.js"
+  }
+}

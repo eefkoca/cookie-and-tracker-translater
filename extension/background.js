@@ -9,7 +9,13 @@ import { classifySite, CONTEXTS } from './lib/context.js';
 import { templateExplain } from './lib/explain.js';
 import { CONFIG } from './config.js';
 
-const log = (...a) => console.log(CONFIG.logPrefix, ...a);
+// Ring buffer of recent log lines (also printed to the service-worker console) for diagnostics/E2E evidence.
+globalThis.__ptLogs = [];
+const log = (...a) => {
+  const line = `${new Date().toISOString()} ${CONFIG.logPrefix} ${a.join(' ')}`;
+  console.log(line);
+  globalThis.__ptLogs.push(line); if (globalThis.__ptLogs.length > 500) globalThis.__ptLogs.shift();
+};
 let db = null;
 const dbReady = fetch(chrome.runtime.getURL('data/trackers.json'))
   .then(r => r.json())

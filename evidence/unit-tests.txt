@@ -1,0 +1,33 @@
+✔ B01 valid request returns plain-language explanation with anomaly warning (38.736684ms)
+✔ B02 second identical request is served from cache (11.974896ms)
+✔ B03 privacy guard: page URL or unknown fields are rejected (422) (7.638874ms)
+✔ B04 malformed JSON (400), oversize body (413), wrong method (405), unknown route (404) (9.363698ms)
+✔ B05 web-page origins are refused (403); extension origin allowed (10.088094ms)
+✔ B06 rate limit returns 429 after the configured maximum (8.49862ms)
+✔ B07 provider failure falls back to templates (no error shown to user) (3.117746ms)
+✔ B08 LLM provider: request shape, schema check and hallucination filter (mocked HTTP) (0.709887ms)
+✔ B09 validator and cache key are order-independent (0.412624ms)
+✔ U01 hostnameOf extracts lowercase host and rejects garbage (0.873371ms)
+✔ U02 registrableDomain handles generic and Turkish multi-label suffixes (0.239068ms)
+✔ U03 isThirdParty distinguishes first- and third-party requests (0.161474ms)
+✔ U09 no trackers gives 100 / A (3.464965ms)
+✔ U10 worked example from report: analytics + advertising(cookie) on general site (0.376074ms)
+✔ U11 same trackers on a health site trigger contextual anomaly penalty (0.177881ms)
+✔ U12 unknown third parties capped at 10 and score floored at 0 (0.351932ms)
+✔ U13 grade boundaries (0.191438ms)
+✔ U14 score is deterministic (same input, same output) (0.327408ms)
+✔ U15 local site-context classifier (0.24563ms)
+# avg lookup 0.899 µs over 100000 lookups
+✔ U04 dataset loads, every entry has a valid category, no duplicate domains (1.075664ms)
+✔ U05 subdomain suffix matching (0.299388ms)
+✔ U06 most specific rule wins (1.243708ms)
+✔ U07 no false match on look-alike domains (0.18014ms)
+✔ U08 lookup performance: 100k lookups average under 5 microseconds (91.268168ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 486.135335
