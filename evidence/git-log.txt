@@ -1,8 +1,9 @@
-8d54424 2026-11-15 13:11 Efe Koca  Update git log evidence
-65b9dcb 2026-11-15 12:57 Efe Koca  Add Report #2 evidence: unit/E2E outputs, service-worker log, screenshots, payload samples
-b9815f5 2026-11-15 12:57 Efe Koca  Add README with layout, run instructions and privacy design
-ed29aed 2026-11-15 12:56 Efe Koca  Ignore non-HTTP main-frame navigations (extension pages were resetting tab state in logs)
-c7d9035 2026-11-15 12:53 Efe Koca  Add unit test suite (24 tests: domain, tracker DB, score formula, backend API) and diagnostic log buffer
-5498f9f 2026-11-15 12:53 Efe Koca  Add zero-dependency Node.js explanation backend: schema validation, LRU cache, template provider, OpenAI-compatible LLM provider with fallback, rate limiting
-df9b07f 2026-11-15 12:51 Efe Koca  Add MV3 background service worker: webRequest observation, tracker matching, Set-Cookie detection, privacy score v1, Tracker Shield (DNR), popup with category pie chart
-9a85d73 2026-11-15 12:49 Efe Koca  Import Report #1 baseline: MV3 manifest and static popup mock-up (reconstructed from Report #1 Appendix A)
+09666dc 2026-11-15 13:23 Efe Koca  Refresh git log evidence
+29aabc9 2026-11-15 13:11 Efe Koca  Update git log evidence
+928f852 2026-11-15 12:57 Efe Koca  Add Report #2 evidence: unit/E2E outputs, service-worker log, screenshots, payload samples
+24942f1 2026-11-15 12:57 Efe Koca  Add README with layout, run instructions and privacy design
+55f20aa 2026-11-15 12:56 Efe Koca  Ignore non-HTTP main-frame navigations (extension pages were resetting tab state in logs)
+0757209 2026-11-15 12:53 Efe Koca  Add unit test suite (24 tests: domain, tracker DB, score formula, backend API) and diagnostic log buffer
+e8e3f33 2026-11-15 12:53 Efe Koca  Add zero-dependency Node.js explanation backend: schema validation, LRU cache, template provider, OpenAI-compatible LLM provider with fallback, rate limiting
+0a84195 2026-11-15 12:51 Efe Koca  Add MV3 background service worker: webRequest observation, tracker matching, Set-Cookie detection, privacy score v1, Tracker Shield (DNR), popup with category pie chart
+fde76d7 2026-11-15 12:49 Efe Koca  Import Report #1 baseline: MV3 manifest and static popup mock-up (reconstructed from Report #1 Appendix A)
